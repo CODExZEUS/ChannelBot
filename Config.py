@@ -24,7 +24,7 @@ else:
     OWNER_ID = 1663603208
     API_HASH = "68d3b463d3c53536782545f790aa5147"
     BOT_TOKEN = "5497421359:AAHFjvr9I2ZjfwgV05oeaZQL1eMfgeiDt7k"
-    DATABASE_URL = "mongodb+srv://anmol0700:anmol0700@cluster0.rjjytvq.mongodb.net/?retryWrites=true&w=majority"
+    DATABASE_URL = "postgres://tfzztwkgmoynsv:5b9438f345093083dcca74678c4f07067576e02ff1677668ab3ab157f71d886b@ec2-54-73-22-169.eu-west-1.compute.amazonaws.com:5432/djboigf6k6dvi"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
     MUST_JOIN = "Film_Nest" # must join channel link here
     if MUST_JOIN.startswith("@"):
