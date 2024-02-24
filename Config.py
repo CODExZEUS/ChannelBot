@@ -20,12 +20,12 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = ... # api id here
-    OWNER_ID = ...
-    API_HASH = "Hash Here"
-    BOT_TOKEN = "TOKEN here"
-    DATABASE_URL = "Url here"
+    API_ID = 20937822 # api id here
+    OWNER_ID = 1663603208
+    API_HASH = "68d3b463d3c53536782545f790aa5147"
+    BOT_TOKEN = "5497421359:AAHFjvr9I2ZjfwgV05oeaZQL1eMfgeiDt7k"
+    DATABASE_URL = "mongodb+srv://anmol0700:anmol0700@cluster0.rjjytvq.mongodb.net/?retryWrites=true&w=majority"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "OldLostFriends" # must join channel link here
+    MUST_JOIN = "Film_Nest" # must join channel link here
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
